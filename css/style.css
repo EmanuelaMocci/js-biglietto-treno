@@ -78,9 +78,22 @@ nav ul li a img, nav ul li a i{
 /* Main */
 .hero{
     background-image: url(../img/hero.jpeg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 450px;
+    position: relative;
+}
+.dettagli-biglietto{
+    color: #CC0C33;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    border: 2px solid #CC0C33;
 }
 /* /Main */
 

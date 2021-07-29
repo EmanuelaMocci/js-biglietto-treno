@@ -1,0 +1,79 @@
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header-top ul, .header-bottom ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bottom, .header-top, main{
+    max-width: 70%;
+    margin: auto;
+}
+/* Header */
+/* Nav top */
+.nav-top{
+    background-color: #E6E6E6; 
+}
+nav ul li{
+    list-style: none;
+    padding: 8px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+nav ul, ul li a{
+    display: flex;
+    align-items: center;
+}
+nav ul li a img, nav ul li a i{
+    color: #303030;
+    padding: 0 5px;
+    font-size: 15px;
+}
+/* /Nav top */
+
+/* Nav bottom */
+.nav-bottom{
+    padding: 17px 0;
+}
+.header-bottom{
+    display: flex;
+}
+.header-bottom ul li{
+    padding: 0 12px;
+}
+.header-bottom ul li:hover a{
+    color: #CC0C33;
+    border-bottom: 2px solid #CC0C33;
+}
+.header-bottom img{
+    width: 170px;
+}
+.traffico{
+    padding: 15px 0;
+}
+.traffico a{
+    color: #CC0C33;
+    border-bottom: 2px solid #CC0C33;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.traffico span{
+    font-size: 15px;
+    padding-left: 20px;
+}
+/* /Nav bottom */
+
+/* /Header */
+
+
